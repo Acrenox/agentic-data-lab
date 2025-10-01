@@ -1,0 +1,72 @@
+{
+    "drivers": {
+        "columns": {
+            "driverid": "int64",
+            "driverref": "object",
+            "number": "float64",
+            "code": "object",
+            "forename": "object",
+            "surname": "object",
+            "dob": "datetime64[ns]",
+            "nationality": "object",
+            "url": "object"
+        },
+        "primary_key": "driverid"
+    },
+    "races": {
+        "columns": {
+            "raceid": "int64",
+            "year": "int64",
+            "round": "int64",
+            "circuitid": "int64",
+            "name": "object",
+            "date": "datetime64[ns]",
+            "time": "object",
+            "url": "object",
+            "fp1_date": "object",
+            "fp1_time": "object",
+            "fp2_date": "object",
+            "fp2_time": "object",
+            "fp3_date": "object",
+            "fp3_time": "object",
+            "quali_date": "object",
+            "quali_time": "object",
+            "sprint_date": "object",
+            "sprint_time": "object"
+        },
+        "primary_key": "raceid"
+    },
+    "constructors": {
+        "columns": {
+            "constructorid": "int64",
+            "constructorref": "object",
+            "name": "object",
+            "nationality": "object",
+            "url": "object"
+        },
+        "primary_key": "constructorid"
+    },
+    "results": {
+        "columns": {
+            "resultid": "int64",
+            "raceid": "int64",
+            "driverid": "int64",
+            "constructorid": "int64",
+            "number": "float64",
+            "grid": "int64",
+            "position": "float64",
+            "positiontext": "object",
+            "positionorder": "int64",
+            "points": "float64",
+            "laps": "int64",
+            "time": "object",
+            "milliseconds": "float64",
+            "fastestlap": "float64",
+            "rank": "float64",
+            "fastestlaptime": "object",
+            "fastestlapspeed": "float64",
+            "statusid": "int64"
+        },
+        "primary_key": "resultid"
+    }
+}
