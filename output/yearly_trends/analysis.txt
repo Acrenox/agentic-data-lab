@@ -1,0 +1,13 @@
+Query: 
+    Analyze Formula 1 trends over the years in the dataset.
+    Show the number of races per year and average points scored.
+    Create a line chart showing these trends over time.
+    
+
+================================================================================
+ANALYSIS REPORT
+================================================================================
+
+This dataset, spanning from 1950 to 2024, provides a good overview of Formula 1 trends over the years. The number of races per year has generally increased, as evidenced by the mean of 15 races, and a standard deviation of 4.2, ranging from a minimum of 7 to a maximum of 24 races in a season. This expansion likely reflects the growing popularity and commercialization of the sport.  The average points scored per race have also seen considerable variation, indicated by the standard deviation of 1.53, suggesting that rule changes, competition levels, and the points system itself have significantly impacted point distribution throughout F1 history.
+
+Based on the descriptive statistics, a line chart visualizing these trends would reveal several key insights. We should expect the number of races to trend upward, possibly with plateaus or dips in certain eras.  Average points scored will likely exhibit more volatility, reflecting specific regulations and competitive dynamics of different periods. Years with significantly higher average points could indicate dominant teams, rule changes favoring certain drivers, or simply a more rewarding points system.  A combined line chart will effectively illustrate the relationship between the expansion of the racing calendar and how points were distributed across the grid over time.
